@@ -11,9 +11,10 @@ Collected using a dual-arm system comprising two Franka Emika Panda robots, this
 
 
 <p align="center">
-Bimanual manipulation result in measuring voltage.
+  <img src="fig/voltage_check.gif" width="600"/>
+  <br/>
+  <em>Figure 2. Teleoperated single-arm manipulation in high-voltage breaker extraction.</em>
 </p>
-
 
 [Download link](https://drive.google.com/drive/folders/1_V1ZfJg48lpO4CfP02YbHN4dPlmcIoRa?usp=drive_link)
 

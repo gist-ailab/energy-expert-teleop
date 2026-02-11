@@ -40,6 +40,7 @@ data/
 │   └── ...
 └── panda_voltage_check/
     └── ...
+```
 
 ## 📂 HDF5 Data Structure
 
@@ -54,3 +55,4 @@ episode_x
     │   └── wrist_2       (T, 480, 640, 3) # RGB from right wrist cam
     ├── qpos              (T, 14)          # Current joint positions
     └── qvel              (T, 14)          # Current joint velocities
+```

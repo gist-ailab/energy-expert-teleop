@@ -16,7 +16,7 @@ Collected using a dual-arm system comprising two Franka Emika Panda robots, this
 The data was collected using a custom teleoperation rig.
 * Follower Robots: 2 $\times$ Franka Emika Panda (7-DoF)
 * Leader Robots: 2 $\times$ GELLO (7-DoF)
-* Cameras:Wrist-Mounted: DJI Osmo Action 5 Pro on each arm
+* Cameras: Wrist-Mounted - DJI Osmo Action 5 Pro on each arm
 
 ## 🤖 Tasks
 

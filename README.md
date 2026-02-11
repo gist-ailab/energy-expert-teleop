@@ -26,8 +26,8 @@ The data was collected using a custom teleoperation rig.
 The dataset consists of 3 core maintenance tasks essential for energy facility management.
 
 1. Panel Door Opening
-2. Toggle switch to turn off
-3. Measuring voltage with probes
+2. Measuring voltage with probes
+3. Toggle switch to turn off (single-arm)
 
 ## 📂 Data Structure
 

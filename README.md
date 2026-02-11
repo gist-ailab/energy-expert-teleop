@@ -74,3 +74,10 @@ episode_x
     ├── qpos              (T, 14)          # Current joint positions
     └── qvel              (T, 14)          # Current joint velocities
 ```
+
+## 📧 Contact
+
+For technical questions or data access issues, please contact:
+
+* Maintainer: Jungi Lee (jungi@etri.re.kr)
+* Affiliation: GIST AI Lab

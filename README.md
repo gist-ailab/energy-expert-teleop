@@ -40,3 +40,17 @@ data/
 │   └── ...
 └── panda_voltage_check/
     └── ...
+
+## 📂 HDF5 Data Structure
+
+The dataset consists of HDF5 files (`episode_x.hdf5`), each containing the following structure:
+
+```text
+episode_x
+├── action                (T, 14)          # Target joint positions (7-DoF x 2)
+└── observation
+    ├── images
+    │   ├── wrist_1       (T, 480, 640, 3) # RGB from left wrist cam
+    │   └── wrist_2       (T, 480, 640, 3) # RGB from right wrist cam
+    ├── qpos              (T, 14)          # Current joint positions
+    └── qvel              (T, 14)          # Current joint velocities

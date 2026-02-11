@@ -24,7 +24,7 @@ Collected using a dual-arm system comprising two Franka Emika Panda robots, this
 ## 🛠 Hardware Setup
 
 <p align="center">
-  <img src="fig/teleop.png" width="800"/>
+  <img src="fig/teleop.png" width="400"/>
   <br/>
   <span style="color: #888888;"><em>
     Figure 2. Tele-operation environment setup.

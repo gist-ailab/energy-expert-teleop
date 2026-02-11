@@ -7,4 +7,35 @@ Collected using a dual-arm system comprising two Franka Emika Panda robots, this
 
 ## 📌 Features
 
-Bimanual Coordination: synchronized control data from two 7-DoF Franka Panda arms.
+* **Bimanual Coordination**: synchronized control data from two 7-DoF Franka Panda arms.
+* **High-Precision Manipulation**: Captures fine-grained skills such as open panel door, switch toggling, and voltage measuring.
+* **Multi-Modal Data**: Includes synchronized RGB images (multi-view) and proprioceptive states (joint positions, velocities, and etc.).
+
+## 🛠 Hardware Setup
+
+The data was collected using a custom teleoperation rig.
+* Follower Robots: 2 $\times$ Franka Emika Panda (7-DoF)
+* Leader Robots: 2 $\times$ GELLO (7-DoF)
+* Cameras:Wrist-Mounted: DJI Osmo Action 5 Pro on each arm
+
+## 🤖 Tasks
+
+The dataset consists of 3 core maintenance tasks essential for energy facility management.
+
+1. Panel Door Opening
+2. Toggle switch to turn off
+3. Measuring voltage with probes
+
+## 📂 Data Structure
+
+The dataset follows the standard HDF5 format, compatible with ACT, Aloha, and Diffusion Policy codebases.
+
+data/
+├── panda_open_door/
+│   ├── episode_0.hdf5
+│   ├── episode_1.hdf5
+│   └── ...
+├── panda_switch_off/
+│   └── ...
+└── panda_voltage_check/
+    └── ...

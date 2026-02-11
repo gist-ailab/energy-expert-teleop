@@ -1,4 +1,7 @@
 # ⚡ Energy-Expert-Teleop: Bimanual Franka Dataset
+
+> **Note:** This dataset was constructed as part of the research for the paper: **"A Hierarchical LLM-Based Framework for Heterogeneous Multi-Robot Orchestration in High-Risk Energy Facility Maintenance"** (currently under review).
+
 **Energy-Expert-Teleop** is a high-fidelity bimanual teleoperation dataset capturing expert demonstrations for safety-critical maintenance tasks in electrical distribution panels.
 
 Collected using a dual-arm system comprising two Franka Emika Panda robots, this dataset is designed to advance research in Imitation Learning (IL) and robotic manipulation for industrial Operation & Maintenance (O&M). It specifically targets long-horizon, high-precision tasks required in energy facilities.

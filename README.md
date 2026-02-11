@@ -56,8 +56,8 @@ episode_x
 ├── action                (T, 14)          # Target joint positions (7-DoF x 2)
 └── observation
     ├── images
-    │   ├── wrist_1       (T, 480, 640, 3) # RGB from left wrist cam
-    │   └── wrist_2       (T, 480, 640, 3) # RGB from right wrist cam
+    │   ├── wrist_1       (T, 480, 640, 3) # RGB from wrist 1 cam
+    │   └── wrist_2       (T, 480, 640, 3) # RGB from wrist 2 cam
     ├── qpos              (T, 14)          # Current joint positions
     └── qvel              (T, 14)          # Current joint velocities
 ```

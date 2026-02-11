@@ -23,6 +23,14 @@ Collected using a dual-arm system comprising two Franka Emika Panda robots, this
 
 ## 🛠 Hardware Setup
 
+<p align="center">
+  <img src="fig/teleop.png" width="800"/>
+  <br/>
+  <span style="color: #888888;"><em>
+    Figure 2. Tele-operation environment setup.
+  </em></span>
+</p>
+
 The data was collected using a custom teleoperation rig.
 * Follower Robots: 2 $\times$ Franka Emika Panda (7-DoF)
 * Leader Robots: 2 $\times$ GELLO (7-DoF)

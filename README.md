@@ -6,7 +6,8 @@
 
 Collected using a dual-arm system comprising two Franka Emika Panda robots, this dataset is designed to advance research in Imitation Learning (IL) and robotic manipulation for industrial Operation & Maintenance (O&M). It specifically targets long-horizon, high-precision tasks required in energy facilities.
 
-![demo](fig/opening_door.gif)
+![demo](fig/voltage_check.gif)
+**Figure 1.** Bimanual manipulation result in measuring voltage.
 
 [Download link](https://drive.google.com/drive/folders/1_V1ZfJg48lpO4CfP02YbHN4dPlmcIoRa?usp=drive_link)
 

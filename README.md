@@ -30,6 +30,7 @@ The dataset consists of 3 core maintenance tasks essential for energy facility m
 
 The dataset follows the standard HDF5 format, compatible with ACT, Aloha, and Diffusion Policy codebases.
 
+```text
 data/
 ├── panda_open_door/
 │   ├── episode_0.hdf5

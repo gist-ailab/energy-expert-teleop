@@ -11,7 +11,7 @@ Collected using a dual-arm system comprising two Franka Emika Panda robots, this
 
 
 <p align="center">
-<Figure> Bimanual manipulation result in measuring voltage.
+Bimanual manipulation result in measuring voltage.
 </p>
 
 
